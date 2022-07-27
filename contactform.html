@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <style>
+        h1 {
+            width: 50%;
+            text-align: center;
+        }
+
+        section {
+            width: 50%;
+            border: 1px solid black;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        .info {
+            margin-left: 30px;
+        }
+
+        span {
+            text-decoration: underline;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Contact Details</h1>
+
+    <section>
+        <p class="info">Please enter your personal details:</p>
+        <form action="" method="">
+            <label class="label" for="FirstName"><span>F</span>irst name:*</label>
+            <input type="firstName" id="name">
+            <br>
+            <br>
+            <label class="label" for="LastName"><span>L</span>ast name:*</label>
+            <input type="lastName" id="lastName">
+            <br>
+            <br>
+            <label class="label" for="StreetAddress">Street <span>a</span>ddress:</label>
+            <input type="streetAddress" id="streetAddress">
+            <br>
+            <br>
+            <label class="label" for="Town/city"><span>T</span>own/city:</label>
+            <input type="town/city" id="town/city">
+            <br>
+            <br>
+            <label class="label" for="Postcode">Post<span>c</span>ode/zip:</label>
+            <input type="Postcode" id="dostcode">
+            <br>
+            <br>
+            <label class="label" for="Telephone">Tele<span>p</span>hone:</label>
+            <input type="telephone" id="telephone">
+            <br>
+            <br>
+            <label class="label" for="Mobile"><span>M</span>obile:</label>
+            <input type="mobile" id="mobile">
+            <br>
+            <br>
+            <label class="label" for="EmailAddress"><span>E</span>mail address:*</label>
+            <input type="emailAddress" id="emailAddress">
+            <br>
+            <br>
+            <p class="alignCenter">Fields marked * are required.</p>
+
+            <input id="submit" type="Submit">
+
+        </form>
+    </section>
+
+</body>
+
+</html>

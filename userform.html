@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <style>
+        table {
+            width: 35%;
+        }
+
+        thead {
+            background-color: yellow;
+            color: red;
+            font-weight: bolder;
+            font-size: xx-large;
+        }
+
+        tbody {
+            background-color: aqua;
+
+        }
+
+        table,
+        th,
+        td {
+            border: 3px solid black;
+
+        }
+
+        .gender {
+            display: flex;
+        }
+
+        .centeralign {
+            text-align: center;
+        }
+
+        .button {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">User Form</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Enter Name</td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <td>Enter Password</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Enter Address</td>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Select Game</td>
+                <td> <input type="checkbox" value="Hockey">
+                    <label for="Hockey">Hockey</label>
+                    <br> <input type="checkbox" value="Football">
+                    <label for="Football">Football</label>
+                    <br><input type="checkbox" value="Badminton">
+                    <label for="Badminton">Badminton</label>
+                    <br><input type="checkbox" value="Cricket">
+                    <label for="Cricket">Cricket</label>
+                    <br><input type="checkbox" value="Volleyball">
+                    <label for="Volleyball">Valleyball</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td class="gender"><input type="radio" id="male" name="male" value="male">
+                    <label for="Male">Male</label><br>
+                    <input type="radio" id="Femail" name="Femail" value="Femail">
+                    <label for="Femail">Femail</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Select your age</td>
+                <td>
+                    <select name="Age" id="Age">
+                        <option value="volvo">select</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="centeralign">
+                <td colspan="2"><input type="file" id="myfile" name="myfile"></td>
+            </tr>
+            <tr class="centeralign">
+                <td colspan="2"><input class="button" type="submit" value="Click Me"><input class="button" type="submit"
+                        value="Reset"><input class="button" type="submit" value="Submit Form">
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+
+</html>
